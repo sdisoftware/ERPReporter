@@ -31,7 +31,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
-//testye ss
+//commit test 19:33
 public class ActQuery extends Activity implements OnClickListener {
 
 	 
