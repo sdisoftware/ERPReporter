@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+    
+    
+    	<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+	    
+		    <TextView
+		        android:id="@+id/txtVwDescription"
+		        android:layout_width="wrap_content"
+		        android:layout_weight="0.8"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="5dp"
+		        android:text="@string/rsLblDescription" />
+		
+		    <TextView
+		        android:id="@+id/txtID1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.2"
+		        android:textAppearance="?android:attr/textAppearanceSmall"
+		        android:layout_marginLeft="0dp"
+		        android:layout_marginTop="5dp" 
+		        android:text="@string/rsLblID"/>
+		    
+	    </LinearLayout>
+    	<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+    	
+	    	<EditText
+		        android:id="@+id/etDescription"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.8"
+		        android:hint="@string/rsNull" >
+		    </EditText>
+
+	    	<EditText
+	    	    android:id="@+id/etID"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_weight="0.2"
+	    	    android:enabled="false"
+	    	    android:inputType="number" >
+
+		    </EditText>
+	    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVwIpAdresi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/rsLblIpAdresi" />
+
+            <EditText
+                android:id="@+id/etIpAdresi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rsEtIpAdresiAciklama" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVwPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/rsLblPort" />
+
+            <EditText
+                android:id="@+id/etPort"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rsEtIpAdresiPort" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVwKullaniciAdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/rsLblKullanici" />
+
+            <EditText
+                android:id="@+id/etKullaniciAdi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rsEtKullanici" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVwSifre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/rsLblSifre" />
+
+            <EditText
+                android:id="@+id/etSifre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rsNull" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVwDatabase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/rsLblDatabaseAdi" />
+
+            <EditText
+                android:id="@+id/etDatabase"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rsNull" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtVwInstance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/rsLblInstance" />
+
+            <EditText
+                android:id="@+id/etInstance"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rsNull" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btIslemx"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp" >
+    </Button>
+
+    <TableLayout
+        android:id="@+id/tblConnectionsResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:stretchColumns="*" >
+
+        <TableRow 
+            android:name="baslik"
+            style="@style/HeaderRow" >
+
+            <TextView
+                style="@style/HeaderText"
+                android:layout_weight="0.6"
+                android:text="@string/rsclDbDataDescription" />
+
+            <TextView
+                style="@style/HeaderText"
+                android:layout_weight="0.2"
+                android:text="@string/rsclDbDataBaseIp" />
+
+            <TextView
+                style="@style/HeaderText"
+                android:layout_weight="0.1"
+                android:text="@string/rsclDbDataBaseName" />
+
+            <TextView
+                style="@style/HeaderText"
+                android:layout_weight="0.1"
+                android:text="@string/rsclDbDataBaseInUse" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

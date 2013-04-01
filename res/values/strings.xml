@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ERP Reporter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="rsBtnQueryAnalzer">Query Analizer</string>
+    <string name="rsBtnAyarlar">Ayarlar</string>
+    <string name="rsBtnHakkinda">Hakkında</string>
+    <string name="rsBtnServers">Sunucular</string>
+    <string name="rsImgLogoAciklama">Program Hakkında ......</string>
+    <string name="rsBtnTablolar">Tablolar</string>
+    <string name="rsBtnExecute">Exec</string>
+    <string name="rsTxtQueryHint">Sorguyu yazınız.. </string>
+
+    <string name="rsLblIpAdresi">İp Adresi</string>
+    
+    <string name="rsEtIpAdresiPort">1433</string>
+    <string name="rsEtIpAdresiAciklama">0.0.0.0</string>
+    <string name="rsEtDatabaseAdi">Database Adı Giriniz..</string>
+    <string name="rsLblDatabaseAdi">Database</string>
+    
+    
+    
+    <string name="rsLblInstance">Instance</string>
+    <string name="rsLblID">ID</string>
+    <string name="rsLblDescription">Tanım</string>
+    <string name="rsLblPort">Port</string>
+    <string name="rsEtKullanici">sa</string>
+    <string name="rsLblKullanici">Kullanıcı Adı</string>
+    
+    <string name="rsEtSifre">Şifre Giriniz</string>
+    <string name="rsNull"></string>
+    
+    <string name="rsclDbDataBaseName">Veritabanı</string>
+	<string name="rsclDbDataBaseInstance">Instance</string>
+	<string name="rsclDbDataBaseIp">Ip Adresi</string>
+	<string name="rsclDbDataBasePort">Port</string>
+	<string name="rsclDbDataBaseInUse">Aktif</string>
+	<string name="rsclDbDataDescription">Tanım</string>
+	<string name="rsclDbDataBaseUser">Kullanıcı Adı</string>
+	<string name="rsclDbDataBasePass">Şifre</string>
+    <string name="rsLblSifre">Şifre</string>
+    
+
+</resources>

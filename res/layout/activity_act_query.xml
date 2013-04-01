@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/etQuery"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="" 
+		android:textSize="13sp" 
+		android:hint="@string/rsTxtQueryHint"> 
+	</EditText>    
+	<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:orientation="horizontal" >
+
+		<Button
+		    android:id="@+id/btnTablolar"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/rsBtnTablolar" />
+
+		<Button
+		    android:id="@+id/btnExecute"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/rsBtnExecute" />
+	</LinearLayout>
+	<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TableLayout 
+            android:id="@+id/tblResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </TableLayout>
+	</ScrollView>
+</LinearLayout>
